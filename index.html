@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ <!-- <label for="name">Name: <input type="text" name="name-field" id="name"></label> -->
+ <label for="surname">Surname: <input type="text" name="surname-field" id="surname" value="Yipmong"></label>
+<label for="last-name">Last Name: <input type="text" name="last-name-field" id="last-name" value="Said"></label>
+<label for="department">Department: <input type="text" name="department-field" id="department" value="Computer"></label>
+
+  <label for="course">Course: <input type="text" name="course-field" id="course" value="IT"></label>
+  <label for="department">Department: 
+  <select name="department-field" id="department">
+    <option value="Information Technology">Information Technology</option>
+    <option value="Law">Law</option>
+    <option value="Medicine">Medicine</option>
+  </select>
+</label>
+
+<label for="description">Description: 
+  <textarea name="description-field" id="description"></textarea>
+</label>
+
+  <label for="year">Year of Graduation: <input type="date" name="date" id="date"></label>
+  <button onclick="generateImage()">Generate Image</button>
+  <canvas id="myCanvas" width="300" height="300"></canvas>
+
+
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>
